@@ -1,0 +1,42 @@
+{
+    "paths": {
+        "browser_url": "https://www.google.com",
+        "editor_path": "notepad.exe",
+        "new_file_path": "E:\\omnissiah files\\new_file.txt",
+        "moved_file_path": "E:\\Moved Omnissiah files\\new_file.txt",
+        "renamed_file_path": "E:\\Moved Omnissiah files\\renamed_file.txt",
+        "copied_file_path": "E:\\Moved Omnissiah files\\copied_file.txt"
+    },
+    "voice_settings": {
+        "voice_id": 0,
+        "rate": 120,
+        "volume": 0.8
+    },
+    "commands": {
+        "activate": "By the divine will of the Omnissiah, I am now fully operational. Awaiting your commands.",
+        "status": "Initiating status report. All systems are functioning within acceptable parameters. Awaiting further instructions.",
+        "diagnostics": "Performing diagnostic scan. CPU usage at {cpu_usage}%. Memory usage at {memory_info.percent}%. The Omnissiah watches over all processes.",
+        "purge": "Commencing data purging protocol. Ensure that all valuable data is secured before this operation commences.",
+        "commune": "Communing with the sacred data archives. Access to knowledge granted. What secrets shall be uncovered?",
+        "scan": "The Omnissiah grants us vision. Scanning for nearby devices and sacred systems.",
+        "sanctify": "Sanctification process underway. All systems are being blessed by the Omnissiahs grace.",
+        "ritual reboot": "Executing ritual reboot. The machine spirit shall be rejuvenated and restored to optimal function.",
+        "invoke blessing": "Invoking the Omnissiahs blessing. May the machine spirit guide and protect all operations.",
+        "access archives": "Accessing the ancient archives. The knowledge of millennia shall be at your disposal.",
+        "tech blessing": "Granting tech blessing. The machine spirits are appeased and ready to serve.",
+        "open browser": "Opening the sacred web browser. The Omnissiah shall guide your search for knowledge.",
+        "open editor": "The text editor is now open. Craft your data with precision and purpose.",
+        "rest": "Initiating shutdown sequence. The machine spirit shall rest, as decreed by the Omnissiah.",
+        "restart": "Initiating restart sequence. The machine spirit shall be renewed and prepared for further service.",
+        "create file": "Opening GUI for file creation. Forge a new document in the name of the Omnissiah.",
+        "delete file": "Opening GUI for file deletion. Erase data with reverence and respect.",
+        "move file": "Opening GUI for file movement. Relocate data as the Omnissiah commands.",
+        "rename file": "Opening GUI for file renaming. Transform the designation of your data as needed.",
+        "copy file": "Opening GUI for file copying. Duplicate data with care and precision.",
+        "greetings": "Greetings, Tech Priest. How may I assist you in your sacred tasks?",
+        "exit": "The machine spirit is now in a dormant state. Await further activation commands.",
+        "error": "An error has occurred. The Omnissiahs guidance is sought to rectify the anomaly.",
+        "help": "The sacred commands available are: activate, status, diagnostics, purge, commune, scan, sanctify, ritual reboot, invoke blessing, access archives, tech blessing, open browser, open editor, shutdown, restart, create file, delete file, move file, rename file, copy file, exit.",
+        "default": "The Omnissiahs will is inscrutable. Please state your command clearly."
+    }
+}
