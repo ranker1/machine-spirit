@@ -15,13 +15,13 @@
     "commands": {
         "activate": "By the divine will of the Omnissiah, I am now fully operational. Awaiting your commands.",
         "status": "Initiating status report. All systems are functioning within acceptable parameters. Awaiting further instructions.",
-        "diagnostics": "Performing diagnostic scan. CPU usage at {cpu_usage}%. Memory usage at {memory_info.percent}%. The Omnissiah watches over all processes.",
+        "diagnostics": "Performing diagnostic scan. CPU usage at {cpu_usage}%. Memory usage at {memory_info} MB. The Omnissiah watches over all processes.",
         "purge": "Commencing data purging protocol. Ensure that all valuable data is secured before this operation commences.",
         "commune": "Communing with the sacred data archives. Access to knowledge granted. What secrets shall be uncovered?",
         "scan": "The Omnissiah grants us vision. Scanning for nearby devices and sacred systems.",
-        "sanctify": "Sanctification process underway. All systems are being blessed by the Omnissiahs grace.",
+        "sanctify": "Sanctification process underway. All systems are being blessed by the Omnissiah's grace.",
         "ritual reboot": "Executing ritual reboot. The machine spirit shall be rejuvenated and restored to optimal function.",
-        "invoke blessing": "Invoking the Omnissiahs blessing. May the machine spirit guide and protect all operations.",
+        "invoke blessing": "Invoking the Omnissiah's blessing. May the machine spirit guide and protect all operations.",
         "access archives": "Accessing the ancient archives. The knowledge of millennia shall be at your disposal.",
         "tech blessing": "Granting tech blessing. The machine spirits are appeased and ready to serve.",
         "open browser": "Opening the sacred web browser. The Omnissiah shall guide your search for knowledge.",
@@ -33,10 +33,24 @@
         "move file": "Opening GUI for file movement. Relocate data as the Omnissiah commands.",
         "rename file": "Opening GUI for file renaming. Transform the designation of your data as needed.",
         "copy file": "Opening GUI for file copying. Duplicate data with care and precision.",
+        "weather": "Fetching the current weather. Please specify the city.",
+        "send email": "Preparing to send an email. Please provide the recipient, subject, and body.",
         "greetings": "Greetings, Tech Priest. How may I assist you in your sacred tasks?",
         "exit": "The machine spirit is now in a dormant state. Await further activation commands.",
-        "error": "An error has occurred. The Omnissiahs guidance is sought to rectify the anomaly.",
-        "help": "The sacred commands available are: activate, status, diagnostics, purge, commune, scan, sanctify, ritual reboot, invoke blessing, access archives, tech blessing, open browser, open editor, shutdown, restart, create file, delete file, move file, rename file, copy file, exit.",
-        "default": "The Omnissiahs will is inscrutable. Please state your command clearly."
+        "error": "An error has occurred. The Omnissiah's guidance is sought to rectify the anomaly.",
+        "help": "The sacred commands available are: activate, status, diagnostics, purge, commune, scan, sanctify, ritual reboot, invoke blessing, access archives, tech blessing, open browser, open editor, shutdown, restart, create file, delete file, move file, rename file, copy file, weather, send email, exit.",
+        "default": "The Omnissiah's will is inscrutable. Please state your command clearly.",
+        "greet": "Hello, Tech Priest.",
+        "how are you": "I am working for the Omnissiah."
+    },
+    "users": {
+        "Tech_Priest": {
+            "role": "Tech-Priest",
+            "voiceprint": "i am the tech priest"
+        },
+        "user2": {
+            "role": "admin",
+            "voiceprint": "voiceprint2_placeholder"
+        }
     }
 }
