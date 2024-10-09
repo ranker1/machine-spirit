@@ -107,7 +107,7 @@ pa = None
 porcupine = None
 
 # Initialize Groq client with API key
-client = Groq(api_key="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")
+client = Groq(api_key="add-yours")
 
 # Function to generate response using Groq AI
 def generate_response(prompt):
@@ -200,7 +200,7 @@ def move_file():
 
 # Weather functionality
 def get_weather(city):
-    api_key = "5c4d04e14c5baa3f8cafb97d0f65e212"
+    api_key = "add-key"
     base_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     
     response = requests.get(base_url)
@@ -370,12 +370,12 @@ def speak(text):
 
 # Wake word listener with Porcupine
 def wake_word_listener():
-    access_key = "JNFSdLyALCNLyrtSRNHdrvVEl5qwnlgOZvhGhT5PYeJXShS771dkew=="
+    access_key = "add-access-key"
     
     global porcupine, audio_stream, pa
     try:
         porcupine = pvporcupine.create(
-            keyword_paths=["C:/Users/Administrator/Omnissiah/Machine-Spirit_.ppn"],
+            keyword_paths=["path-to-ppn"],
             access_key=access_key
         )
     except ValueError as e:
