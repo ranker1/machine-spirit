@@ -2,10 +2,10 @@
     "paths": {
         "browser_url": "https://www.google.com",
         "editor_path": "notepad.exe",
-        "new_file_path": "E:\\omnissiah files\\new_file.txt",
-        "moved_file_path": "E:\\Moved Omnissiah files\\new_file.txt",
-        "renamed_file_path": "E:\\Moved Omnissiah files\\renamed_file.txt",
-        "copied_file_path": "E:\\Moved Omnissiah files\\copied_file.txt"
+        "new_file_path": "-",
+        "moved_file_path": "-",
+        "renamed_file_path": "-",
+        "copied_file_path": "-"
     },
     "voice_settings": {
         "voice_id": 0,
